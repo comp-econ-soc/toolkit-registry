@@ -1,0 +1,75 @@
+schema_version: 1
+
+slug: quantecon
+name: QuantEcon
+aka:
+  - QuantEcon.py
+  - QuantEcon.jl
+  - quantecon
+
+kind: toolkit
+
+classification:
+  - lectures
+  - general-purpose
+  - dynamic-programming
+  - Markov-chains
+  - Python
+  - Julia
+
+urls:
+  landing_page: https://quantecon.org/
+  documentation: https://quantecon.org/lectures/
+  source_repository: https://github.com/QuantEcon
+  package_index: https://pypi.org/project/quantecon/
+  about_page: https://quantecon.org/about/
+
+language:
+  - Python
+  - Julia
+
+license: BSD-3-Clause
+
+maintainers:
+  - name: Thomas J. Sargent
+    role: founder
+    affiliation: New York University
+  - name: John Stachurski
+    role: founder
+    affiliation: Australian National University
+  - name: Matthew McKay
+    role: core developer
+    affiliation: Australian National University
+  - name: Pablo Winant
+    role: contributor
+  - name: Spencer Lyon
+    role: contributor
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Thomas J. Sargent
+    main_session: B
+    main_session_presenter: Thomas J. Sargent
+    sponsor_status: ~
+
+notes: |
+  QuantEcon is an open-source organization providing high-quality
+  computational tools and lectures for quantitative economics. It
+  comprises:
+    - QuantEcon.py — Python library for economic modeling
+    - QuantEcon.jl — Julia library mirroring the Python package
+    - QuantEcon Lectures — extensive open-access lecture series
+      (Python and Julia versions) co-authored by Sargent and Stachurski
+  Sponsored by the Alfred P. Sloan Foundation and others; team based
+  primarily at NYU (Sargent) and ANU (Stachurski, McKay).
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://quantecon.org/about/
+  cross_references:
+    - https://github.com/QuantEcon/QuantEcon.py
+    - https://github.com/QuantEcon/QuantEcon.jl
+    - https://quantecon.org/lectures/
+  last_verified: 2026-05-04
+  confidence: high

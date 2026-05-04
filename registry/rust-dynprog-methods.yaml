@@ -1,0 +1,69 @@
+schema_version: 1
+
+slug: rust-dynprog-methods
+name: Computational methods for dynamic programming and structural models (Rust research program)
+aka:
+  - NFXP
+  - Nested Fixed-Point Algorithm
+  - Rust dynamic discrete choice methods
+
+kind: research_program
+
+classification:
+  - dynamic-programming
+  - structural-estimation
+  - discrete-choice
+  - NFXP
+  - MPEC
+
+urls:
+  landing_page: https://editorialexpress.com/jrust/
+  about_page: https://econ.georgetown.edu/faculty-directory/john-rust/
+
+language:
+  - GAUSS
+  - MATLAB
+  - Fortran
+
+license: unspecified
+
+maintainers:
+  - name: John Rust
+    role: principal investigator
+    affiliation: Georgetown University (Professor Emeritus)
+    email: jr1393@georgetown.edu
+
+primary_contact:
+  name: John Rust
+  email: jr1393@georgetown.edu
+
+cef_history:
+  cef_2026:
+    preconference_invitee: John Rust
+    main_session: B
+    main_session_presenter: John Rust
+    sponsor_status: ~
+
+notes: |
+  Research program (not a packaged toolkit) covering computational
+  methods Rust has developed for solving and estimating dynamic
+  programming models and structural econometric models. Foundational
+  contributions include:
+    - Rust (1987, Econometrica) "Optimal Replacement of GMC Bus
+      Engines" — introduced the Nested Fixed-Point (NFXP) algorithm
+      for estimating dynamic discrete-choice models
+    - Random-grid / successive-approximation methods for solving
+      high-dimensional DPs (Rust 1997)
+    - Curse-of-dimensionality breaking via random Bellman operators
+  Code is typically released as paper-replication packages (often in
+  GAUSS or Fortran) on Rust's homepage at editorialexpress.com.
+  Georgetown faculty page lists him as Professor Emeritus.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://editorialexpress.com/jrust/
+  cross_references:
+    - https://econ.georgetown.edu/faculty-directory/john-rust/
+  last_verified: 2026-05-04
+  confidence: medium

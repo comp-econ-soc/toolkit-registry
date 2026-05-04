@@ -1,0 +1,72 @@
+schema_version: 1
+
+slug: ace-tesfatsion
+name: ACE (Agent-based Computational Economics)
+aka:
+  - ACE
+  - Tesfatsion ACE site
+  - Agent-Based Computational Economics
+
+kind: research_program
+
+classification:
+  - ABM
+  - educational-resource
+  - research-hub
+  - electricity-markets
+  - market-design
+
+urls:
+  landing_page: https://www2.econ.iastate.edu/tesfatsi/ace.htm
+  about_page: https://faculty.sites.iastate.edu/tesfatsi/
+  documentation: https://www2.econ.iastate.edu/tesfatsi/aintro.htm
+
+language:
+  - (varies)
+
+license: unspecified
+
+maintainers:
+  - name: Leigh Tesfatsion
+    role: founder, maintainer
+    affiliation: Iowa State University (Professor Emerita of Economics)
+    email: tesfatsi@iastate.edu
+
+primary_contact:
+  name: Leigh Tesfatsion
+  email: tesfatsi@iastate.edu
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Leigh Tesfatsion
+    main_session: B
+    main_session_presenter: Leigh Tesfatsion
+    sponsor_status: ~
+
+notes: |
+  ACE — Agent-based Computational Economics — is the long-running
+  research-program label coined and curated by Leigh Tesfatsion
+  (Iowa State, Professor Emerita) since the late 1990s. The site
+  at econ.iastate.edu/tesfatsi/ace.htm functions as a central
+  community hub: surveys and introductory materials, an annotated
+  syllabus, software/toolkit pointers, teaching resources,
+  journals, and a directory of ACE researchers and groups.
+
+  This is a research-program / educational-resource entry, not a
+  packaged toolkit. The site itself is a curated link collection;
+  the underlying ACE research uses many different platforms
+  (NetLogo, Repast, Mesa, custom code, etc.). Tesfatsion's own
+  applied work focuses on electricity market design and network
+  economics (e.g., the AMES wholesale-power test bed).
+
+  Site last updated 2026-04-21 (per page footer).
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www2.econ.iastate.edu/tesfatsi/ace.htm
+  cross_references:
+    - https://faculty.sites.iastate.edu/tesfatsi/
+    - http://www.scholarpedia.org/article/Agent-based_computational_economics
+  last_verified: 2026-05-04
+  confidence: high

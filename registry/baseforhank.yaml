@@ -1,0 +1,78 @@
+schema_version: 1
+
+slug: baseforhank
+name: BASEforHANK
+aka:
+  - BASEtoolbox
+  - BASEtoolbox.jl
+  - BBL toolbox
+
+kind: toolkit
+
+classification:
+  - non-DDSL
+  - HA-DSGE
+  - HANK
+  - Reiter-linearization
+  - Bayesian-estimation
+  - Kalman-filter
+  - dimensionality-reduction
+
+urls:
+  landing_page: https://github.com/BASEforHANK/BASEtoolbox.jl
+  documentation: https://github.com/BASEforHANK/BASEtoolbox.jl
+  source_repository: https://github.com/BASEforHANK/BASEtoolbox.jl
+
+language:
+  - Julia
+
+license: MIT
+
+maintainers:
+  - name: Christian Bayer
+    role: founder, principal investigator
+    affiliation: University of Bonn
+  - name: Benjamin Born
+    role: principal investigator
+    affiliation: Frankfurt School of Finance and Management
+  - name: Ralph Luetticke
+    role: founder, principal investigator
+    affiliation: University of Tübingen
+
+primary_contact:
+  name: Ralph Luetticke
+
+last_known_release:
+  version: ~
+  date: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Ralph Luetticke
+    main_session: B (non-DDSL)
+    main_session_presenter: Ralph Luetticke
+    sponsor_status: ~
+
+notes: |
+  Julia toolbox for Bayesian estimation of medium-scale heterogeneous-agent
+  DSGE (HANK) models in the spirit of Bayer, Born & Luetticke (2024,
+  "Shocks, Frictions, and Inequality in US Business Cycles," AER 114(5),
+  1211–47).
+
+  Implements Reiter (2009)-style linearization with Bayesian-prior-based
+  dimensionality reduction of the cross-sectional histogram, Kalman
+  filtering, and impulse-response matching. Ships with HANK-1-asset,
+  HANK-2-asset, RANK, and Krusell-Smith templates.
+
+  Methodological strength is *estimation*, not just solution — distinguishes
+  it from pure SSJ workflows. Companion to Bayer-Luetticke 2018+ research
+  program.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://github.com/BASEforHANK/BASEtoolbox.jl
+  cross_references:
+    - file:McKibbin-Software-Group/research/ha-toolkit-landscape.md
+  last_verified: 2026-05-04
+  confidence: high

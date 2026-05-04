@@ -1,0 +1,97 @@
+schema_version: 1
+
+slug: hark
+name: HARK
+aka:
+  - Econ-ARK
+  - econ-ark
+  - HARK / Econ-ARK
+
+kind: toolkit
+
+classification:
+  - non-DDSL
+  - HA-capable
+  - life-cycle
+  - buffer-stock
+  - EGM
+  - multi-type-heterogeneity
+  - SSJ-integration
+  - NumFOCUS-sponsored
+
+urls:
+  landing_page: https://econ-ark.org/
+  documentation: https://docs.econ-ark.org/
+  source_repository: https://github.com/econ-ark/HARK
+  package_index: https://pypi.org/project/econ-ark/
+  documentation_extra: https://docs.econ-ark.org/
+
+language:
+  - Python
+
+license: Apache-2.0
+
+maintainers:
+  - name: Christopher D. Carroll
+    role: founder, principal investigator
+    affiliation: Johns Hopkins University
+  - name: Alan Lujan
+    role: lead maintainer
+    affiliation: Johns Hopkins University / Econ-ARK
+  - name: Mateo Velásquez-Giraldo
+    role: core developer
+    affiliation: Federal Reserve Board / Econ-ARK
+  - name: Matthew N. White
+    role: core developer
+  - name: Sébastien Benjamin Bald-Buschmann
+    role: contributor
+  - name: Akshay Shanker
+    role: contributor
+    affiliation: University of New South Wales
+
+primary_contact:
+  name: Alan Lujan
+
+last_known_release:
+  version: ~
+  date: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Mateo Velásquez-Giraldo
+    main_session: B (non-DDSL)
+    main_session_presenter: Mateo Velásquez-Giraldo
+    sponsor_status: ~
+
+notes: |
+  HARK ("Heterogeneous Agents Resources & toolKit") is the code toolkit at
+  the heart of the Econ-ARK project. NumFOCUS-sponsored open-source Python
+  framework built around the `AgentType` abstraction: an `AgentType` solves
+  a household problem; collections of agent types interact in a `Market`.
+  EGM (Carroll 2006) is the workhorse solver.
+
+  Native handling: buffer-stock, life-cycle, multi-type Aiyagari-style
+  economies, portfolio choice, discrete-continuous choice. Integrates with
+  Sequence-Space Jacobian for HANK-style counterfactuals via the `HARK.HANK`
+  interface and an SSJ shim.
+
+  Used by Federal Reserve Board, IMF, Bank of England, and academic
+  researchers. The Econ-ARK ecosystem also includes: DemARK
+  (demonstrations), REMARK (paper replications), and emerging projects
+  Matsya (DP theory copilot) and DolARK / dolo-plus (DDSL successor
+  language).
+
+  Citation: Carroll, Kaufman, Kazil, Palmer & White (2018), "The Econ-ARK
+  and HARK: Open Source Tools for Computational Economics," SciPy
+  Proceedings.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://econ-ark.org/
+  cross_references:
+    - https://github.com/econ-ark/HARK
+    - https://docs.econ-ark.org/
+    - file:McKibbin-Software-Group/research/ha-toolkit-landscape.md
+  last_verified: 2026-05-04
+  confidence: high

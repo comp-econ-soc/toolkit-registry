@@ -1,0 +1,80 @@
+schema_version: 1
+
+slug: hetsol
+name: HetSol
+aka:
+  - Reiter HA solver
+  - NLAA (Nonlinear Solution by Approximate Aggregation)
+  - Approximate and Almost-Exact Aggregation programs
+  - Reiter (2009) projection-and-perturbation code
+
+kind: toolkit
+
+classification:
+  - HA-solver
+  - Reiter-linearization
+  - projection-and-perturbation
+  - aggregate-shock-linearization
+  - non-DDSL
+
+urls:
+  landing_page: https://myservice.ihs.ac.at/mreiter/research.html
+  source_repository: ~
+  about_page: https://myservice.ihs.ac.at/mreiter/
+
+language:
+  - MATLAB
+
+license: unspecified
+
+maintainers:
+  - name: Michael Reiter
+    role: founder, sole maintainer
+    affiliation: Institute for Advanced Studies (IHS) Vienna — Macroeconomics and Business Cycles research group
+
+primary_contact:
+  name: Michael Reiter
+  email: ~
+
+last_known_release:
+  version: "appraggr 0.20 / nlaa 0.11"
+  date: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Michael Reiter
+    main_session: B (non-DDSL)
+    main_session_presenter: Michael Reiter
+    sponsor_status: ~
+    notes: Reiter is also the JEDC-sponsored plenary speaker at CEF 2026.
+
+notes: |
+  "HetSol" is the SCE registry's working slug for Michael Reiter's MATLAB
+  implementations of the linearization-around-stationary-distribution method
+  introduced in Reiter (2009), "Solving heterogeneous-agent models by
+  projection and perturbation," JEDC 33(3), 649–665. The code is distributed
+  from Reiter's IHS Vienna research page as two tarballs:
+    - nlaa.tar.gz       — Nonlinear Solution by Approximate Aggregation (v0.11)
+    - appraggr.tar.gz   — Approximate and Almost-Exact Aggregation (v0.20)
+  There is no GitHub repository, no LICENSE file, and no formal release
+  cadence; the code accompanies Reiter's papers and short courses (e.g. the
+  Berlin School of Economics short course on "Heterogeneous Agent Models in
+  Macroeconomics"). The Reiter (2009) method is the methodological foundation
+  of every modern "linearized HANK" implementation, including BBL's
+  BASEforHANK toolbox (which is in the registry as `baseforhank`).
+
+  Reiter is the head of the "Macroeconomics and Business Cycles" research
+  group at IHS Vienna. The CEF 2026 invitation listed him as both a
+  pre-conference invitee and the JEDC-sponsored plenary speaker; he is the
+  natural Session B presenter for the "Reiter linearization" lineage.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://myservice.ihs.ac.at/mreiter/research.html
+  cross_references:
+    - https://www.liuyanecon.com/wp-content/uploads/Reiter-2009.pdf
+    - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1002510
+    - file:McKibbin-Software-Group/research/ha-toolkit-landscape.md
+  last_verified: 2026-05-04
+  confidence: medium

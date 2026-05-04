@@ -1,0 +1,62 @@
+schema_version: 1
+
+slug: maliar-dl-methods
+name: Deep learning solution methods (Maliar research program)
+aka:
+  - Maliar deep learning methods
+  - Maliar-Maliar-Winant deep learning
+
+kind: research_program
+
+classification:
+  - deep-learning
+  - neural-networks
+  - global-solution
+  - high-dimensional
+  - DSGE-solver
+
+urls:
+  landing_page: https://lmaliar.ws.gc.cuny.edu/
+  about_page: https://lmaliar.ws.gc.cuny.edu/
+
+language:
+  - Python
+  - TensorFlow
+
+license: unspecified
+
+maintainers:
+  - name: Lilia Maliar
+    role: principal investigator
+    affiliation: City University of New York (Baruch College / Graduate Center)
+  - name: Serguei Maliar
+    role: collaborator
+    affiliation: Santa Clara University
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Lilia Maliar
+    main_session: B
+    main_session_presenter: Lilia Maliar
+    sponsor_status: ~
+
+notes: |
+  Research program (not a packaged toolkit) on using deep learning and
+  neural networks to solve high-dimensional dynamic economic models.
+  Key contributions include:
+    - Maliar, Maliar, Winant (2021, JME) "Deep learning for solving
+      dynamic economic models"
+    - All-in-one expectation operator framework
+    - Application to heterogeneous-agent and OLG models with many
+      state variables that defeat traditional grid methods
+  Code is typically released as paper-replication packages on the
+  authors' homepages rather than a single named library. Landing
+  page is Lilia Maliar's CUNY academic homepage.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://lmaliar.ws.gc.cuny.edu/
+  cross_references: []
+  last_verified: 2026-05-04
+  confidence: low

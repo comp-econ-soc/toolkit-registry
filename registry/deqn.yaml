@@ -1,0 +1,71 @@
+schema_version: 1
+
+slug: deqn
+name: Deep Equilibrium Nets (DEQN)
+aka:
+  - DeepEquilibriumNets
+  - Deep Equilibrium Networks
+
+kind: method
+
+classification:
+  - deep-learning
+  - neural-networks
+  - global-solution
+  - high-dimensional
+  - HA-capable
+  - reference-implementation
+
+urls:
+  landing_page: https://github.com/sischei/DeepEquilibriumNets
+  source_repository: https://github.com/sischei/DeepEquilibriumNets
+  documentation: https://github.com/sischei/DeepEquilibriumNets/blob/master/README.md
+
+language:
+  - Python
+  - TensorFlow
+
+license: MIT
+
+maintainers:
+  - name: Simon Scheidegger
+    role: founder, core developer
+    affiliation: University of Lausanne
+  - name: Marlon Azinovic
+    role: core developer
+  - name: Luca Gaegauf
+    role: core developer
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Simon Scheidegger
+    main_session: B
+    main_session_presenter: Simon Scheidegger
+    sponsor_status: ~
+
+notes: |
+  Deep Equilibrium Nets (DEQN) is a method (with reference codebase)
+  for globally solving high-dimensional dynamic stochastic economic
+  models using deep neural networks to approximate equilibrium
+  policy functions. It is not a packaged framework — the GitHub
+  repository serves as the canonical reference implementation.
+
+  Reference paper:
+    Azinovic, M., Gaegauf, L., and Scheidegger, S. (2022).
+    "Deep Equilibrium Nets." International Economic Review, 63(4),
+    1471–1525.
+
+  Distinguishing feature: trains the network to satisfy the model's
+  equilibrium conditions directly (residual minimization on Euler /
+  market-clearing equations), without requiring value-function or
+  expectation approximation. Demonstrated on heterogeneous-agent
+  models with many idiosyncratic shocks.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://github.com/sischei/DeepEquilibriumNets
+  cross_references:
+    - https://onlinelibrary.wiley.com/doi/10.1111/iere.12575
+  last_verified: 2026-05-04
+  confidence: high

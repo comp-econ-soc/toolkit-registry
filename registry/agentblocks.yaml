@@ -1,0 +1,101 @@
+schema_version: 1
+
+slug: agentblocks
+name: AGENTBLOCKS
+aka:
+  - AgentBlocks
+  - Agent Blocks
+
+kind: toolkit
+
+classification:
+  - ABM
+  - reusable-building-blocks
+  - community-platform
+  - modular
+
+urls:
+  landing_page: https://www.agentblocks.org/
+  about_page: https://www.agentblocks.org/about
+  forum: https://forum.comses.net/c/working-groups/reusable-building-blocks/27
+  documentation: https://www.jasss.org/28/4/11.html
+
+language:
+  - (varies)
+
+license: unspecified
+
+maintainers:
+  - name: Tatiana Filatova
+    role: founder, lead
+    affiliation: Delft University of Technology (TU Delft)
+  - name: Liz Verbeek
+    role: core developer
+    affiliation: Delft University of Technology (TU Delft)
+  - name: Martijn Warnier
+    role: core developer
+    affiliation: Delft University of Technology (TU Delft)
+  - name: Amineh Ghorbani
+    role: core developer
+    affiliation: Delft University of Technology (TU Delft)
+  - name: Igor Nikolić
+    role: core developer
+    affiliation: Delft University of Technology (TU Delft)
+  - name: Volker Grimm
+    role: core developer
+    affiliation: Helmholtz Centre for Environmental Research (UFZ); University of Potsdam
+  - name: Uta Berger
+    role: core developer
+    affiliation: Technische Universität Dresden
+  - name: Michael Barton
+    role: core developer
+    affiliation: Arizona State University
+  - name: Andrew Bell
+    role: core developer
+    affiliation: Cornell University
+  - name: Allen Lee
+    role: core developer
+  - name: Nicholas R. Magliocca
+    role: core developer
+    affiliation: The University of Alabama
+  - name: Thorid Wagenblast
+    role: core developer
+    affiliation: Delft University of Technology (TU Delft)
+
+primary_contact:
+  name: Tatiana Filatova
+  email: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Tatiana Filatova
+    main_session: B
+    main_session_presenter: Tatiana Filatova
+    sponsor_status: ~
+
+notes: |
+  AGENTBLOCKS is an open-access community platform for sharing,
+  comparing, peer-reviewing, and reusing modular code components
+  ("Reusable Building Blocks", RBBs) for agent-based models. Hosted
+  by TU Delft and 4TU; supported in part by an ERC grant. Intended
+  as a discipline-agnostic library serving ecology, economics,
+  sociology, psychology, and other ABM-using fields.
+
+  The platform was launched alongside a 2025 JASSS paper (Filatova
+  et al., JASSS 28(4): 11) describing the design and a first set of
+  peer-reviewed RBBs. As of the JASSS publication, eight RBBs were
+  peer-reviewed and 10+ were under development.
+
+  License: not stated on the platform homepage as of 2026-05-04.
+  Source code repository: not publicly listed.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www.agentblocks.org/
+  cross_references:
+    - https://www.jasss.org/28/4/11.html
+    - https://research.tudelft.nl/en/publications/agentblocks-a-community-platform-for-sharing-comparing-and-improv/
+    - https://www.tudelft.nl/en/staff/t.filatova/
+  last_verified: 2026-05-04
+  confidence: high

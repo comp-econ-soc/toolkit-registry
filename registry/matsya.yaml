@@ -1,0 +1,82 @@
+schema_version: 1
+
+slug: matsya
+name: Matsya
+aka:
+  - matsya
+
+kind: toolkit
+
+classification:
+  - DDSL
+  - dolo-plus
+  - modular-dynamic-programming
+  - LLM-RAG-tool
+  - YAML-model-spec
+  - Econ-ARK
+
+urls:
+  landing_page: https://github.com/econ-ark/matsya
+  source_repository: https://github.com/econ-ark/matsya
+  about_page: https://econ-ark.org/
+
+language:
+  - Python
+
+license: unspecified
+
+maintainers:
+  - name: Akshay Shanker
+    role: founder, lead developer
+    affiliation: University of New South Wales
+    email: akshay.shanker@me.com
+
+primary_contact:
+  name: Akshay Shanker
+  email: akshay.shanker@me.com
+
+last_known_release:
+  version: ~
+  date: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Akshay Shanker
+    preconference_role: lingua-franca translator across DDSL toolkits
+    main_session: A (DDSL)
+    main_session_presenter: Akshay Shanker
+    sponsor_status: ~
+
+notes: |
+  Matsya is a CLI and Python API for a research RAG (retrieval-augmented
+  generation) oracle that acts as a "mathematical and theoretical copilot
+  for modular dynamic programming problems." It performs one-to-one
+  translations between dolo-plus YAML syntax and formal modular Bellman
+  notation, analyzing paper excerpts to identify states, controls, shocks,
+  and timing.
+
+  Hosted under the Econ-ARK org (https://github.com/econ-ark/matsya).
+  Designed to be called as a specialist consultant from local coding
+  agents (Claude Code, Cursor, etc.) — handling DP theory while local
+  agents manage implementation.
+
+  Knowledge base covers: dolo-plus syntax and specification, dynamic
+  programming theory, category-theoretic foundations of modular DP, and
+  canonical examples. Long-run Econ-ARK plan: all HARK models described
+  by a Dolo-descendant language (working prototype name "DolARK"); Matsya
+  is the bridge between informal model statements and that DDSL.
+
+  At CEF 2026 Session A (DDSL), Matsya plays a dual role: presents one
+  canonical model on its own behalf, and serves as the lingua-franca
+  translator that digests each other DDSL toolkit's canonical model into
+  the dolo-plus DDSL.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://github.com/econ-ark/matsya
+  cross_references:
+    - https://econ-ark.org/
+    - https://akshayshanker.net/
+  last_verified: 2026-05-04
+  confidence: medium

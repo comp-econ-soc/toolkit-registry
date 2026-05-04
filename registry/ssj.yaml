@@ -1,0 +1,88 @@
+schema_version: 1
+
+slug: ssj
+name: Sequence-Space Jacobian (SSJ)
+aka:
+  - SSJ
+  - sequence-jacobian
+  - shade-econ/sequence-jacobian
+
+kind: toolkit
+
+classification:
+  - non-DDSL
+  - HA-DSGE
+  - HANK
+  - sequence-space-Jacobian
+  - block-composition
+  - linearized-impulse-response
+  - EGM
+
+urls:
+  landing_page: https://github.com/shade-econ/sequence-jacobian
+  documentation: https://github.com/shade-econ/sequence-jacobian
+  source_repository: https://github.com/shade-econ/sequence-jacobian
+  package_index: https://pypi.org/project/sequence-jacobian/
+
+language:
+  - Python
+
+license: MIT
+
+maintainers:
+  - name: Adrien Auclert
+    role: founder, principal investigator
+    affiliation: Stanford University
+  - name: Bence Bardóczy
+    role: founder, core developer
+    affiliation: Federal Reserve Board
+  - name: Matthew Rognlie
+    role: founder, principal investigator
+    affiliation: Northwestern University
+  - name: Ludwig Straub
+    role: founder, principal investigator
+    affiliation: Harvard University
+
+primary_contact:
+  name: Bence Bardóczy
+
+last_known_release:
+  version: ~
+  date: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Bence Bardóczy
+    main_session: B (non-DDSL)
+    main_session_presenter: Bence Bardóczy
+    sponsor_status: ~
+
+notes: |
+  Reference Python implementation of Auclert, Bardóczy, Rognlie & Straub
+  (2021, "Using the Sequence-Space Jacobian to Solve and Estimate
+  Heterogeneous-Agent Models," Econometrica 89(5), 2375–2408).
+
+  Core abstraction: the sequence-space Jacobian J — derivative, around the
+  stationary equilibrium, of the mapping from input sequences {X_t} to
+  output sequences {Y_t}. Each model "block" carries its own Jacobian;
+  blocks compose via chain rule; equilibrium is a sparse linear system in
+  T × n unknowns. Block primitives: `HetBlock` (household with idiosyncratic
+  shocks, EGM-solved), `SimpleBlock`, `SolvedBlock`.
+
+  SSJ has become the lingua franca for HANK estimation and counterfactuals.
+  Reference notebooks ship for Aiyagari, Krusell-Smith, one-asset HANK,
+  and two-asset HANK.
+
+  The broader SSJ orbit spans Auclert, Bardóczy, Rognlie, Straub (founders)
+  plus an active extension community (e.g. EconPizza by Boehl applying SSJ
+  with JAX-based automatic differentiation for nonlinear transitions).
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://github.com/shade-econ/sequence-jacobian
+  cross_references:
+    - https://doi.org/10.3982/ECTA17434
+    - file:McKibbin-Software-Group/research/ha-toolkit-landscape.md
+  last_verified: 2026-05-04
+  confidence: high

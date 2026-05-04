@@ -1,0 +1,100 @@
+schema_version: 1
+
+slug: sym-gcubed
+name: SYM / G-Cubed
+aka:
+  - SYM
+  - Symphony
+  - G-Cubed
+  - GCubed
+  - GGG
+  - MSG (legacy)
+
+kind: toolkit
+
+classification:
+  - DDSL
+  - CGE
+  - multi-region
+  - multi-sector
+  - perfect-foresight
+  - sticky-prices
+  - climate-and-trade-policy
+  - non-HA
+
+urls:
+  landing_page: https://gcubed.com/
+  documentation: https://documentation.gcubed.com/
+  source_repository: https://github.com/pjwilcoxen/sym
+  about_page: https://documentation.gcubed.com/gcubed/
+
+language:
+  - C (legacy SYM frontend)
+  - Python (Symphony rewrite, gcubed runtime)
+
+license: proprietary
+
+maintainers:
+  - name: Warwick McKibbin
+    role: founder, principal investigator
+    affiliation: Australian National University / Brookings Institution
+  - name: Peter Wilcoxen
+    role: founder, SYM language author
+    affiliation: Syracuse University
+  - name: McKibbin Software Group
+    role: maintainer (closed-source gcubed runtime)
+
+primary_contact:
+  name: Warwick McKibbin
+
+last_known_release:
+  version: "Sym v2.9.3 build 964 (legacy frontend); gcubed model build 192"
+  date: 2025-12-16
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Warwick McKibbin
+    main_session: A (DDSL)
+    main_session_presenter: Warwick McKibbin
+    sponsor_status: ~
+
+notes: |
+  G-Cubed is a multi-region multi-sector intertemporal general equilibrium
+  model of the world economy (up to 23 regions / 22 sectors in production
+  variants). Bridges econometric CGE and modern macroeconomics: Blanchard-
+  Yaari + rule-of-thumb consumers, KLEM production nesting, sticky prices,
+  bilateral trade, currency/asset accounting, deterministic perfect-foresight
+  transition paths solved via the McKibbin (1986) two-point boundary value
+  algorithm (a.k.a. "Warwick's algorithm" / MSG).
+
+  SYM is the set-driven matrix language used to specify G-Cubed models —
+  declarative, with conformability rules enforced at compile time. The
+  legacy SYM is a C/yacc parser (Wilcoxen's BSD-licensed upstream); a
+  Python rewrite called Symphony is in active development (AST stage as
+  of 2025-12-16).
+
+  License nuance: the SYM frontend (Wilcoxen upstream) is BSD; the McKibbin
+  Software Group fork has no LICENSE file. The G-Cubed numerical core ships
+  as a byte-compiled Python wheel (closed-source, McKibbin Software Group),
+  fetched at runtime via `gcubed-build-switcher`. Effectively the public
+  SYM material is a read-only spec without a working solver. License here
+  is recorded as "proprietary" reflecting the binding numerical core; the
+  parser is BSD-Wilcoxen-derived.
+
+  No HA capability in the modern (Aiyagari/Krusell-Smith/HANK) sense — the
+  closest is the aggregate Campbell-Mankiw two-type mix. The MSG saddle-path
+  solver is structurally incompatible with Bewley-style cross-sectional
+  distributions.
+
+  Detailed capabilities note: `McKibbin-Software-Group/research/gcubed-capabilities.md`.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://documentation.gcubed.com/gcubed/
+  cross_references:
+    - https://github.com/pjwilcoxen/sym
+    - https://www.sensiblepolicy.com/Manuals2021/GGGv6GManual/model.htm
+    - file:McKibbin-Software-Group/research/gcubed-capabilities.md
+  last_verified: 2026-05-04
+  confidence: high

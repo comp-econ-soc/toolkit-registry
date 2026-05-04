@@ -1,0 +1,78 @@
+schema_version: 1
+
+slug: mandel-abm
+name: ABM (systemic risk / production networks) — Mandel
+aka:
+  - Mandel ABM research program
+  - Production-network ABMs (Mandel)
+
+kind: research_program
+
+classification:
+  - ABM
+  - systemic-risk
+  - production-networks
+  - climate-finance
+  - financial-networks
+
+urls:
+  landing_page: https://sites.google.com/site/antoinedavidmandel/
+  about_page: https://www.pantheonsorbonne.fr/sites/default/files/2025-03/cvmandelenglishfeb25.pdf
+  documentation: ~
+  source_repository: ~
+
+language:
+  - (varies)
+
+license: unspecified
+
+maintainers:
+  - name: Antoine Mandel
+    role: principal investigator
+    affiliation: Université Paris 1 Panthéon-Sorbonne; Centre d'Economie de la Sorbonne (CES); Paris School of Economics (associated)
+
+primary_contact:
+  name: Antoine Mandel
+  email: antoine.mandel@gmail.com
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Antoine Mandel
+    main_session: B
+    main_session_presenter: Antoine Mandel
+    sponsor_status: ~
+    notes_2026: "alternate invitee — held in reserve for the non-DDSL ABM sub-section of Session B"
+
+notes: |
+  Research-program label, not a single packaged toolkit. Antoine
+  Mandel's ABM-related research spans production networks,
+  systemic risk in financial networks, and climate-finance stress
+  testing. His own homepage advertises a "Software/Code" section
+  but does not name a single flagship platform; code releases
+  appear to be paper-specific.
+
+  Major projects associated with this program include GREENWIN,
+  DOLFINS (H2020), SIMPOL (FP7) on systemic importance in climate
+  financial networks, and IMPRESSIONS (FP7) on high-end climate
+  scenarios. Methodologically these draw on agent-based models of
+  production-network formation, heterogeneous-agent financial
+  models, and complex-network systemic-risk analysis.
+
+  Affiliation: Mandel is at Université Paris 1 Panthéon-Sorbonne /
+  Centre d'Economie de la Sorbonne. He is referred to in the CEF
+  shortlist as "Paris School of Economics" — that association is
+  via PSE's broader research community rather than a primary PSE
+  faculty appointment, so far as I can verify from his CV.
+
+  License/language vary per implementation; no single toolkit URL.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://sites.google.com/site/antoinedavidmandel/
+  cross_references:
+    - https://www.pantheonsorbonne.fr/sites/default/files/2025-03/cvmandelenglishfeb25.pdf
+    - https://ideas.repec.org/f/pma693.html
+    - https://scholar.google.com/citations?hl=fr&user=m9OnlZMAAAAJ
+  last_verified: 2026-05-04
+  confidence: medium

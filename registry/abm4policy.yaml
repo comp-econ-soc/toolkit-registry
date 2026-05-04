@@ -1,0 +1,78 @@
+schema_version: 1
+
+slug: abm4policy
+name: ABM4Policy / Central-bank ABM tools
+aka:
+  - ABM4Policy
+  - Central-bank agent-based modeling
+
+kind: research_program
+
+classification:
+  - ABM
+  - macroprudential-policy
+  - financial-stability
+  - central-bank-tools
+  - systemic-risk
+
+urls:
+  landing_page: https://www.inet.ox.ac.uk/people/jagoda-kaszowska-mojsa
+  about_page: https://sites.google.com/view/abm4policy/
+  documentation: ~
+  source_repository: ~
+
+language:
+  - (varies)
+
+license: unspecified
+
+maintainers:
+  - name: Jagoda Kaszowska-Mojsa
+    role: lead researcher (CEF 2026 invitee)
+    affiliation: National Bank of Poland (Macroprudential Policy Division); Institute of Economics, Polish Academy of Sciences; Cracow University of Economics; INET Oxford (Associate Fellow)
+
+primary_contact:
+  name: Jagoda Kaszowska-Mojsa
+  email: ~
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Jagoda Kaszowska-Mojsa
+    main_session: B
+    main_session_presenter: Jagoda Kaszowska-Mojsa
+    sponsor_status: ~
+    notes_2026: "alternate invitee — held in reserve for the non-DDSL ABM sub-section of Session B"
+
+notes: |
+  Research-program / community-of-practice label, not a single
+  packaged toolkit. Refers to the network of central-bank-affiliated
+  agent-based modeling efforts focused on macroprudential policy,
+  financial stability, and systemic risk. The ABM4Policy workshop
+  series (most recently hosted by the ECB in June 2025) is the
+  visible community gathering point.
+
+  Jagoda Kaszowska-Mojsa is the CEF 2026 invitee representing this
+  cluster. Her own MACROPRU project (H2020 Marie Skłodowska-Curie
+  Fellowship at Oxford) used agent-based simulation to study
+  distributional effects of macroprudential policy. She is a
+  co-author on Borsos, Carro, Glielmo, Hinterschweiger,
+  Kaszowska-Mojsa, Uluc, "Agent-based modeling at central banks:
+  recent developments and new challenges" (Bank of England Working
+  Paper No. 1122, 2025) — a multi-central-bank survey of the field.
+
+  No single packaged tool, license, repository, or platform exists
+  for "ABM4Policy". Individual central-bank ABMs (Bank of England,
+  Banco de España, Banca d'Italia, Magyar Nemzeti Bank, Narodowy
+  Bank Polski) are largely internal or paper-by-paper releases.
+  This entry's confidence reflects that ambiguity.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www.inet.ox.ac.uk/people/jagoda-kaszowska-mojsa
+  cross_references:
+    - https://www.ecb.europa.eu/press/conferences/html/20250626_abm4policy.en.html
+    - https://www.bankofengland.co.uk/working-paper/2025/agent-based-modeling-at-central-banks-recent-developments-and-new-challenges
+    - https://sites.google.com/view/abm4policy/
+  last_verified: 2026-05-04
+  confidence: medium

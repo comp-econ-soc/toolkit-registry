@@ -1,0 +1,84 @@
+schema_version: 1
+
+slug: gdsge
+name: GDSGE
+aka:
+  - Global DSGE Toolbox
+  - gdsge
+
+kind: toolkit
+
+classification:
+  - HA-capable
+  - global-solution
+  - DSGE-solver
+  - STPFI
+  - finite-agent-types
+  - non-DDSL
+
+urls:
+  landing_page: https://www.gdsge.com/
+  documentation: https://www.gdsge.com/
+  source_repository: https://github.com/gdsge/gdsge
+
+language:
+  - C++
+  - MATLAB
+
+license: Apache-2.0
+
+maintainers:
+  - name: Dan Cao
+    role: co-founder, core developer
+    affiliation: Georgetown University
+  - name: Wenlan Luo
+    role: co-founder, core developer
+    affiliation: Tsinghua University, School of Economics and Management
+  - name: Guangyu Nie
+    role: co-founder, core developer
+    affiliation: Shanghai University of Finance and Economics, College of Business
+
+primary_contact:
+  name: GDSGE team
+  email: gdsge.cln2020@gmail.com
+
+last_known_release:
+  version: "0.1.6"
+  date: 2025-07-29
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Dan Cao
+    main_session: B (non-DDSL)
+    main_session_presenter: Guangyu Nie
+    sponsor_status: ~
+    notes: |
+      Dan Cao was the original CEF 2026 pre-conference invitee but declined;
+      Guangyu Nie (co-author and SUFE professor) is the substitute presenter
+      for the main session.
+
+notes: |
+  GDSGE is a MATLAB/C++ toolbox for global solutions of nonlinear DSGE
+  models. Users define a model in a compact `.gmod` file (Dynare-like
+  syntax); the toolbox parses it and generates C++ dynamic libraries that
+  implement the Simultaneous Transition and Policy Function Iteration
+  (STPFI) algorithm. Best suited to models with a finite (not continuum)
+  number of agent types but rich nonlinearities — financial-crisis models,
+  rare-disaster models, models with implicit laws of motion. Less natural
+  for continuum-Aiyagari problems.
+
+  Reference paper: Cao, Luo, & Nie (2023), "Global DSGE Models," *Review of
+  Economic Dynamics*. The toolbox depends on third-party libraries
+  (Adept for AD, CoDoSol solver, Eigen for linear algebra), each with their
+  own licenses.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www.gdsge.com/
+  cross_references:
+    - https://github.com/gdsge/gdsge
+    - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3569013
+    - file:McKibbin-Software-Group/research/ha-toolkit-landscape.md
+  last_verified: 2026-05-04
+  confidence: high

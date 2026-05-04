@@ -1,0 +1,89 @@
+schema_version: 1
+
+slug: dolo
+name: Dolo
+aka:
+  - dolo
+  - dolo.py
+  - Dolo.jl
+  - Dolark
+  - dolark
+
+kind: toolkit
+
+classification:
+  - DDSL
+  - DSGE-solver
+  - global-methods
+  - perturbation
+  - time-iteration
+  - EGM
+  - HA-capable-via-dolark
+  - YAML-model-spec
+
+urls:
+  landing_page: https://www.econforge.org/dolo.py/
+  documentation: https://www.econforge.org/dolo.py/
+  source_repository: https://github.com/EconForge/dolo.py
+  package_index: https://pypi.org/project/dolo/
+  about_page: https://github.com/EconForge
+
+language:
+  - Python
+  - Julia (Dolo.jl)
+
+license: BSD-2-Clause
+
+maintainers:
+  - name: Pablo Winant
+    role: founder, core developer
+    affiliation: ESCP Business School / CREST
+  - name: Spencer Lyon
+    role: contributor (Dolo.jl)
+
+primary_contact:
+  name: Pablo Winant
+
+last_known_release:
+  version: "0.4.9.20"
+  date: 2024-11-07
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Pablo Winant
+    main_session: A (DDSL)
+    main_session_presenter: Pablo Winant
+    sponsor_status: ~
+
+notes: |
+  Dolo describes discrete-time recursive economic models in YAML and solves
+  them with a wide algorithmic menu: perturbation through 3rd order, time
+  iteration, improved time iteration (Winant's Newton-accelerated variant),
+  endogenous grid method (Carroll), value iteration, and perfect-foresight
+  stacked-time. Single-economy DTCC paradigm.
+
+  Sister project `dolark` (https://github.com/EconForge/dolark) layers
+  heterogeneous-agent capability on top: Aiyagari-style stationary
+  equilibria with idiosyncratic shocks, Reiter-style perturbation around
+  the stationary distribution, and a Krusell-Smith dimension-reduction
+  route. Self-described as "experimental"; effectively dormant since
+  Apr 2023 (PRs from 2019-2022 still open).
+
+  Dolo.py is in maintenance mode (last release Nov 2024, mostly housekeeping
+  for pandas/numpy 2.0 compat). Active development has shifted toward
+  Dolo.jl (Oct 2025 commits) and a newer Python project, dyno.py
+  (active through Apr 2026).
+
+  Detailed capabilities note: `McKibbin-Software-Group/research/dolo-capabilities.md`.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www.econforge.org/dolo.py/
+  cross_references:
+    - https://github.com/EconForge/dolo.py
+    - https://github.com/EconForge/dolark
+    - https://github.com/EconForge/Dolo.jl
+    - file:McKibbin-Software-Group/research/dolo-capabilities.md
+  last_verified: 2026-05-04
+  confidence: high

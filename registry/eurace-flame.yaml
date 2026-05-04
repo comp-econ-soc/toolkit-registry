@@ -1,0 +1,79 @@
+schema_version: 1
+
+slug: eurace-flame
+name: Eurace / FLAME
+aka:
+  - Eurace@Unibi
+  - FLAME
+  - FLAME-GPU
+
+kind: toolkit
+
+classification:
+  - ABM
+  - agent-based-macro
+  - simulation-framework
+  - large-scale
+
+urls:
+  landing_page: http://www.wiwi.uni-bielefeld.de/lehrbereiche/vwl/etace/Eurace_Unibi/
+  documentation: http://www.wiwi.uni-bielefeld.de/lehrbereiche/vwl/etace/Eurace_Unibi/
+  source_repository: https://github.com/FLAME-HPC
+  about_page: http://www.flame.ac.uk/
+
+language:
+  - C
+  - C++
+  - XML
+  - Python
+
+license: "(varies)"
+
+maintainers:
+  - name: Herbert Dawid
+    role: principal investigator (Eurace@Unibi)
+    affiliation: Bielefeld University
+  - name: Simon Coakley
+    role: core developer (FLAME)
+    affiliation: University of Sheffield
+  - name: Paul Richmond
+    role: core developer (FLAME-GPU)
+    affiliation: University of Sheffield
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Herbert Dawid
+    main_session: B
+    main_session_presenter: Herbert Dawid
+    sponsor_status: ~
+
+notes: |
+  Two related-but-distinct artefacts:
+
+  1. FLAME (Flexible Large-scale Agent Modelling Environment) — a
+     general-purpose agent-based modeling framework developed at the
+     University of Sheffield. Agents are specified as state machines
+     in XML; the framework generates C/C++ simulation code. FLAME-GPU
+     extends this to massively parallel GPU execution.
+
+  2. Eurace / Eurace@Unibi — a large-scale agent-based macroeconomic
+     model of the European economy, originally built on the FLAME
+     framework. Maintained by the ETACE group at Bielefeld University
+     under Herbert Dawid. Used for policy analysis (labor markets,
+     monetary/fiscal policy, technology diffusion, climate policy).
+
+  These are bundled in this registry entry because the SCE relationship
+  is via Dawid presenting the Eurace research program, which is
+  inseparable from its FLAME tooling foundation. Licenses vary by
+  component (FLAME is open-source; some Eurace@Unibi modules are
+  release-on-request).
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: http://www.wiwi.uni-bielefeld.de/lehrbereiche/vwl/etace/Eurace_Unibi/
+  cross_references:
+    - http://www.flame.ac.uk/
+    - https://github.com/FLAME-HPC
+  last_verified: 2026-05-04
+  confidence: medium

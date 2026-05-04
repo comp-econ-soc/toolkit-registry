@@ -4,6 +4,20 @@ All notable changes to the SCE Toolkit Registry are recorded here.
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/);
 the registry uses date-based releases rather than semantic versioning.
 
+## 2026-05-04 — bulk population (22 entries)
+
+### Added
+- 22 toolkit entries spanning the DDSL family (dolo, sym-gcubed, matsya), the HA-DSGE solver family (baseforhank, ssj, hark, hetsol, gdsge, gemodeltools, vfi-toolkit, rise), general-purpose / structural / methodological (quantecon, maliar-dl-methods, deqn, rust-dynprog-methods), and agent-based modeling (eurace-flame, agentblocks, dosi-abm, ace-tesfatsion, mesa, abm4policy, mandel-abm).
+- All 23 entries (the 22 above plus the existing `dynare.yaml`) pass `tools/registry-validate.py`.
+
+### Changed
+- Three URL corrections caught by the validator before commit: `hark.yaml` (dropped non-existent `econ-ark.org/about/`, added `documentation_extra: docs.econ-ark.org`), `quantecon.yaml` (`about_page` → `quantecon.org/about/`), `vfi-toolkit.yaml` (dropped offline forum + 406-rejecting about_page).
+
+### Notes
+- Eight entries are `kind: research_program` or `kind: method` rather than packaged toolkits — appropriate for individual researchers' computational-methods agendas (Maliar, Rust, Dosi-lineage, Tesfatsion, Mandel, Kaszowska-Mojsa) or named-method-with-reference-code (DEQN). Confidence levels per entry reflect single-source vs cross-referenced.
+
+---
+
 ## 2026-05-04 — initial bootstrap
 
 ### Added

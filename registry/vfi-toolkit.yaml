@@ -1,0 +1,74 @@
+schema_version: 1
+
+slug: vfi-toolkit
+name: VFI Toolkit
+aka:
+  - VFIToolkit-matlab
+  - VFI Toolkit for Matlab
+
+kind: toolkit
+
+classification:
+  - HA-capable
+  - VFI
+  - GPU-accelerated
+  - life-cycle
+  - OLG
+  - heterogeneous-agent
+  - non-DDSL
+
+urls:
+  landing_page: https://www.vfitoolkit.com/
+  documentation: https://www.vfitoolkit.com/
+  source_repository: https://github.com/vfitoolkit/VFIToolkit-matlab
+
+language:
+  - MATLAB
+
+license: GPL-3.0
+
+maintainers:
+  - name: Robert Kirkby
+    role: founder, lead developer
+    affiliation: Victoria University of Wellington — School of Economics and Finance
+    email: robertdkirkby@gmail.com
+
+primary_contact:
+  name: Robert Kirkby
+  email: robertdkirkby@gmail.com
+
+last_known_release:
+  version: "2.5"
+  date: 2025-02-19
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Robert Kirkby
+    main_session: B (non-DDSL)
+    main_session_presenter: Robert Kirkby
+    sponsor_status: ~
+
+notes: |
+  VFI Toolkit is a MATLAB framework that automates value-function iteration
+  on GPUs, returning value and policy functions for a wide range of
+  macroeconomic models. Capabilities include finite- and infinite-horizon
+  problems, heterogeneous-agent stationary distributions, general
+  equilibrium for HA and OLG models, transition paths, panel-data simulation,
+  and life-cycle profiling. Latest tagged release on GitHub at registry-
+  population time was v2.3.0 (2025-02-19); the website references newer
+  v2.5 development (InfHorz line). Documentation, examples, and a Discourse
+  community forum are hosted at vfitoolkit.com.
+
+  Robert Kirkby is a Senior Lecturer / macroeconomist at Victoria University
+  of Wellington (NZ).
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www.vfitoolkit.com/
+  cross_references:
+    - https://github.com/vfitoolkit/VFIToolkit-matlab
+    - https://www.robertdkirkby.com/
+    - https://ecomod.net/system/files/Kirby_DiscStateSpaceToolkit.pdf
+  last_verified: 2026-05-04
+  confidence: high
