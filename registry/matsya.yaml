@@ -1,53 +1,42 @@
 schema_version: 1
-
 slug: matsya
 name: Matsya
 aka:
-  - matsya
-
+- matsya
 kind: toolkit
-
 classification:
-  - DDSL
-  - dolo-plus
-  - modular-dynamic-programming
-  - LLM-RAG-tool
-  - YAML-model-spec
-  - Econ-ARK
-
+- DDSL
+- dolo-plus
+- modular-dynamic-programming
+- LLM-RAG-tool
+- YAML-model-spec
+- Econ-ARK
 urls:
   landing_page: https://github.com/econ-ark/matsya
   source_repository: https://github.com/econ-ark/matsya
   about_page: https://econ-ark.org/
-
 language:
-  - Python
-
-license: unspecified
-
+- Python
+license: Apache-2.0
 maintainers:
-  - name: Akshay Shanker
-    role: founder, lead developer
-    affiliation: University of New South Wales
-    email: akshay.shanker@me.com
-
+- name: Akshay Shanker
+  role: founder, lead developer
+  affiliation: University of New South Wales
+  email: akshay.shanker@me.com
 primary_contact:
   name: Akshay Shanker
   email: akshay.shanker@me.com
-
 last_known_release:
-  version: ~
-  date: ~
-
+  version: null
+  date: null
 cef_history:
   cef_2026:
     preconference_invitee: Akshay Shanker
     preconference_role: lingua-franca translator across DDSL toolkits
     main_session: A (DDSL)
     main_session_presenter: Akshay Shanker
-    sponsor_status: ~
-
-notes: |
+    sponsor_status: null
+notes: |-
   Matsya is a CLI and Python API for a research RAG (retrieval-augmented
   generation) oracle that acts as a "mathematical and theoretical copilot
   for modular dynamic programming problems." It performs one-to-one
@@ -71,12 +60,15 @@ notes: |
   translator that digests each other DDSL toolkit's canonical model into
   the dolo-plus DDSL.
 
+  License note (2026-05-04): Apache-2.0 LICENSE file added to econ-ark/matsya matching HARK's existing LICENSE byte-for-byte (commit 5cbf8e6 to econ-ark/matsya). Prior registry state recorded license as 'unspecified' because no LICENSE file existed in the repo at population time.
 provenance:
   added_to_registry: 2026-05-04
   added_by: Chris Carroll (with Claude assistance)
   primary_source: https://github.com/econ-ark/matsya
   cross_references:
-    - https://econ-ark.org/
-    - https://akshayshanker.net/
-  last_verified: 2026-05-04
-  confidence: medium
+  - https://econ-ark.org/
+  - https://akshayshanker.net/
+  - https://github.com/econ-ark/matsya/blob/main/LICENSE (added 2026-05-04, matches
+    econ-ark/HARK)
+  last_verified: '2026-05-04'
+  confidence: high

@@ -4,6 +4,13 @@ All notable changes to the SCE Toolkit Registry are recorded here.
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/);
 the registry uses date-based releases rather than semantic versioning.
 
+## 2026-05-04 — matsya licensed (Apache-2.0)
+
+### Changed
+- `matsya.yaml`: license `unspecified` → `Apache-2.0`; confidence `medium` → `high`. Upstream `econ-ark/matsya` had no LICENSE file at registry-population time; an Apache-2.0 LICENSE was added to that repo (commit `5cbf8e6`) byte-identical to `econ-ark/HARK`'s existing LICENSE, after which GitHub's License API now classifies the repo as Apache-2.0. Cross-reference added; license-history note appended.
+
+---
+
 ## 2026-05-04 — schema cleanup + license corrections
 
 ### Changed
