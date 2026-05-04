@@ -1,0 +1,107 @@
+schema_version: 1
+
+slug: dynare
+name: DYNARE
+aka:
+  - Dynare
+  - dynare
+
+kind: toolkit
+
+classification:
+  - DDSL
+  - DSGE-solver
+  - HA-capable-since-7.0
+  - Bayesian-estimation
+  - perfect-foresight
+  - perturbation
+  - OccBin
+
+urls:
+  landing_page: https://www.dynare.org/
+  documentation: https://www.dynare.org/manual/
+  source_repository: https://git.dynare.org/Dynare/dynare
+  forum: https://forum.dynare.org/
+  about_page: https://www.dynare.org/about/
+
+language:
+  - MATLAB
+  - GNU Octave
+  - Julia (Dynare.jl)
+
+license: GPL-3.0+
+
+maintainers:
+  - name: Stéphane Adjemian
+    role: core developer
+    affiliation: CEPREMAP
+  - name: Michel Juillard
+    role: founder, core developer
+    affiliation: CEPREMAP
+  - name: Sébastien Villemot
+    role: core developer
+    affiliation: CEPREMAP
+  - name: Sumudu Kankanamge
+    role: core developer
+    affiliation: CEPREMAP
+  - name: Frédéric Karamé
+    role: core developer
+    affiliation: CEPREMAP
+  - name: Willi Mutschler
+    role: core developer
+  - name: Johannes Pfeifer
+    role: core developer
+  - name: Marco Ratto
+    role: core developer
+  - name: Normann Rion
+    role: core developer
+    affiliation: CEPREMAP
+  - name: Simon Scheidegger
+    role: core developer
+    affiliation: University of Lausanne
+  - name: Gauthier Vermandel
+    role: core developer
+
+primary_contact:
+  name: Sébastien Villemot
+  email: sebastien@dynare.org
+
+last_known_release:
+  version: "7.0"
+  date: 2026-03-19
+
+cef_history:
+  cef_2026:
+    preconference_invitee: Sébastien Villemot
+    preconference_role: Event 2 lead — "Lessons from DYNARE"
+    main_session: A (DDSL)
+    main_session_presenter: Sébastien Villemot
+    sponsor_status: ~
+
+notes: |
+  Founded by Michel Juillard in 1994. CEPREMAP-based core team plus
+  external contributors. Self-hosted GitLab (not GitHub) at
+  git.dynare.org. Annual masterclasses at ENS Paris.
+
+  Dynare 7.0 (released 2026-03-19) introduced native heterogeneous-agent
+  support via `heterogeneity_dimension` blocks, a sequence-space "fake-news"
+  algorithm based on Auclert-Bardóczy-Rognlie-Straub (2021) plus Bhandari
+  et al. (2023), and bundled examples for Krusell-Smith and one/two-asset
+  HANK. Dynare 6.x had no native HA. The 6.x line remains in maintenance
+  (6.5 released 2025-11-24).
+
+  Octave 11.x with the optim package supports the full 7.0 HA framework.
+  Dynare.jl (Julia rewrite) does NOT yet ship the heterogeneity framework
+  as of v0.10.4 (2025-10-16).
+
+  Detailed capabilities note: `McKibbin-Software-Group/research/dynare-capabilities.md`.
+
+provenance:
+  added_to_registry: 2026-05-04
+  added_by: Chris Carroll (with Claude assistance)
+  primary_source: https://www.dynare.org/about/
+  cross_references:
+    - https://www.dynare.org/new-dynare-release/dynare-7.0-released/
+    - file:McKibbin-Software-Group/research/dynare-capabilities.md
+  last_verified: 2026-05-04
+  confidence: high
