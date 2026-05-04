@@ -1,48 +1,40 @@
 schema_version: 1
-
 slug: mandel-abm
 name: ABM (systemic risk / production networks) — Mandel
 aka:
-  - Mandel ABM research program
-  - Production-network ABMs (Mandel)
-
+- Mandel ABM research program
+- Production-network ABMs (Mandel)
 kind: research_program
-
 classification:
-  - ABM
-  - systemic-risk
-  - production-networks
-  - climate-finance
-  - financial-networks
-
+- ABM
+- systemic-risk
+- production-networks
+- climate-finance
+- financial-networks
 urls:
   landing_page: https://sites.google.com/site/antoinedavidmandel/
   about_page: https://www.pantheonsorbonne.fr/sites/default/files/2025-03/cvmandelenglishfeb25.pdf
-  documentation: ~
-  source_repository: ~
-
+  documentation: null
+  source_repository: null
 language:
-  - (varies)
-
+- (varies)
 license: unspecified
-
 maintainers:
-  - name: Antoine Mandel
-    role: principal investigator
-    affiliation: Université Paris 1 Panthéon-Sorbonne; Centre d'Economie de la Sorbonne (CES); Paris School of Economics (associated)
-
+- name: Antoine Mandel
+  role: principal investigator
+  affiliation: Université Paris 1 Panthéon-Sorbonne; Centre d'Economie de la Sorbonne
+    (CES); Paris School of Economics (associated)
 primary_contact:
   name: Antoine Mandel
   email: antoine.mandel@gmail.com
-
 cef_history:
   cef_2026:
     preconference_invitee: Antoine Mandel
     main_session: B
     main_session_presenter: Antoine Mandel
-    sponsor_status: ~
-    notes_2026: "alternate invitee — held in reserve for the non-DDSL ABM sub-section of Session B"
-
+    sponsor_status: null
+    notes: alternate invitee — held in reserve for the non-DDSL ABM sub-section of
+      Session B
 notes: |
   Research-program label, not a single packaged toolkit. Antoine
   Mandel's ABM-related research spans production networks,
@@ -65,14 +57,13 @@ notes: |
   faculty appointment, so far as I can verify from his CV.
 
   License/language vary per implementation; no single toolkit URL.
-
 provenance:
   added_to_registry: 2026-05-04
   added_by: Chris Carroll (with Claude assistance)
   primary_source: https://sites.google.com/site/antoinedavidmandel/
   cross_references:
-    - https://www.pantheonsorbonne.fr/sites/default/files/2025-03/cvmandelenglishfeb25.pdf
-    - https://ideas.repec.org/f/pma693.html
-    - https://scholar.google.com/citations?hl=fr&user=m9OnlZMAAAAJ
+  - https://www.pantheonsorbonne.fr/sites/default/files/2025-03/cvmandelenglishfeb25.pdf
+  - https://ideas.repec.org/f/pma693.html
+  - https://scholar.google.com/citations?hl=fr&user=m9OnlZMAAAAJ
   last_verified: 2026-05-04
   confidence: medium

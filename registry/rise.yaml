@@ -1,54 +1,43 @@
 schema_version: 1
-
 slug: rise
 name: RISE
 aka:
-  - RISE Toolbox
-  - RISE_toolbox
-  - Rationality In Switching Environments
-
+- RISE Toolbox
+- RISE_toolbox
+- Rationality In Switching Environments
 kind: toolkit
-
 classification:
-  - DSGE-solver
-  - regime-switching
-  - Markov-switching
-  - Bayesian-estimation
-  - perturbation
-  - DSGE-VAR
-  - non-DDSL
-
+- DSGE-solver
+- regime-switching
+- Markov-switching
+- Bayesian-estimation
+- perturbation
+- DSGE-VAR
+- non-DDSL
 urls:
   landing_page: https://github.com/jmaih/RISE_toolbox
   documentation: https://github.com/jmaih/RISE_toolbox
   source_repository: https://github.com/jmaih/RISE_toolbox
-
 language:
-  - MATLAB
-
-license: BSD-3-Clause
-
+- MATLAB
+license: LicenseRef-RISE-Maih
 maintainers:
-  - name: Junior Maih
-    role: founder, sole maintainer
-    affiliation: Norges Bank (Norway central bank); BI Norwegian Business School (associated)
-
+- name: Junior Maih
+  role: founder, sole maintainer
+  affiliation: Norges Bank (Norway central bank); BI Norwegian Business School (associated)
 primary_contact:
   name: Junior Maih
-  email: ~
-
+  email: null
 last_known_release:
-  version: "v2019 (legacy tag)"
+  version: v2019 (legacy tag)
   date: 2026-03-29
-
 cef_history:
   cef_2026:
     preconference_invitee: Junior Maih
     main_session: B (non-DDSL)
     main_session_presenter: Junior Maih
-    sponsor_status: ~
-
-notes: |
+    sponsor_status: null
+notes: |-
   RISE (Rationality In Switching Environments) is an object-oriented MATLAB
   toolbox for modelling regime-switching DSGE models, supporting both
   exogenous and endogenous switching mechanisms as well as constant-
@@ -64,12 +53,14 @@ notes: |
   reverse-engineering of p-code files is not permitted). The master branch
   remains under active development.
 
+
+  License note: GitHub classifies the LICENSE file as NOASSERTION (non-SPDX). The file is a custom copyright statement by Junior Maih (2009-present); the older v2019 release adds a no-decompile clause for the p-code'd binary. SPDX-compatible identifier used here: LicenseRef-RISE-Maih.
 provenance:
   added_to_registry: 2026-05-04
   added_by: Chris Carroll (with Claude assistance)
   primary_source: https://github.com/jmaih/RISE_toolbox
   cross_references:
-    - https://github.com/jmaih/RISE_toolbox/blob/master/LICENSE
-    - file:McKibbin-Software-Group/research/dynare-capabilities.md
+  - https://github.com/jmaih/RISE_toolbox/blob/master/LICENSE
+  - file:McKibbin-Software-Group/research/dynare-capabilities.md
   last_verified: 2026-05-04
   confidence: high
